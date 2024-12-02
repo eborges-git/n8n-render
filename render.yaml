@@ -36,4 +36,4 @@ services:
       #changed from ten to two
 databases:
   - name: n8nDB
-    plan: hobby # changed to what plan you have with render
+    plan: free # changed to what plan you have with render
