@@ -32,8 +32,8 @@ services:
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
-      sizeGB: 10
-
+      sizeGB: 2
+      #changed from ten to two
 databases:
   - name: n8nDB
-    plan: starter
+    plan: free # changed to what plan you have with render
