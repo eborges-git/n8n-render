@@ -36,4 +36,4 @@ services:
 
 databases:
   - name: n8nDB
-    plan: hobby
+    plan: Hobby
